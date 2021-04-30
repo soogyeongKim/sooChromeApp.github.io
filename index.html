@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Soogyeong's App</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+    <div class="main-box hiding">
+        <h4 class="js-greetings greetings"></h4>
+        <h1 class="main-clock">00:00</h1>
+        <h4 class="js-weather"></h4>
+    </div>
+    <div class="first-box">
+        <form class="js-form form">
+            <input type="text" placeholder="What is your name?" />
+        </form>
+    </div>
+    <form class="js-toDoForm hiding">
+        <input type="text" placeholder="Write a to do" />
+    </form>
+    <div class="js-toDolist-container hiding">
+        <div class="js-toDoList-box bgBox">
+            <h2>To Do!</h2>
+            <ul class="js-toDoList"></ul>
+        </div>
+        <div class="js-toDoList-done-box bgBox">
+            <h2>Complete!</h2>
+            <ul class="js-toDoList-done checked-li"></ul>
+        </div>
+    </div>
+    <script src="clock.js"></script>
+    <script src="gretting.js"></script>
+    <script src="todo.js"></script>
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
+</body>
+
+</html>
